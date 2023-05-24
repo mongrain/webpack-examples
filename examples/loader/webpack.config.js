@@ -4,7 +4,7 @@ module.exports = {
   module: {
     rules: [{
       test: /\.txt$/,
-      use: './examples/loader/const2var-loader'
+      use: './const2var-loader'
     }],
   },
   output: {

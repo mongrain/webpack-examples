@@ -15,17 +15,17 @@
   \****************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const txt = __webpack_require__(/*! ./examples/loader/demo.txt */ \"./examples/loader/demo.txt\");\r\nconsole.log(txt);\r\n\n\n//# sourceURL=webpack://webpack-examples/./app.js?");
+eval("const txt = __webpack_require__(/*! ./demo.txt */ \"./demo.txt\");\r\nconsole.log(txt);\r\n\n\n//# sourceURL=webpack://webpack-examples/./app.js?");
 
 /***/ }),
 
-/***/ "./examples/loader/demo.txt":
-/*!**********************************!*\
-  !*** ./examples/loader/demo.txt ***!
-  \**********************************/
+/***/ "./demo.txt":
+/*!******************!*\
+  !*** ./demo.txt ***!
+  \******************/
 /***/ ((module) => {
 
-eval("module.exports = \"替换文本 var\\r\\n\\r\\n\"\n\n//# sourceURL=webpack://webpack-examples/./examples/loader/demo.txt?");
+eval("module.exports = \"替换文本 var\\r\\n\\r\\n\"\n\n//# sourceURL=webpack://webpack-examples/./demo.txt?");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ eval("module.exports = \"替换文本 var\\r\\n\\r\\n\"\n\n//# sourceURL=webpack
   \***************************/
 /***/ ((module) => {
 
-eval("module.exports = {\r\n  entry: './app.js',\r\n  mode: 'development',\r\n  module: {\r\n    rules: [{\r\n      test: /\\.txt$/,\r\n      use: './examples/loader/const2var-loader'\r\n    }],\r\n  },\r\n  output: {\r\n    filename: 'bundle.js',\r\n  },\r\n};\n\n//# sourceURL=webpack://webpack-examples/./webpack.config.js?");
+eval("module.exports = {\r\n  entry: './app.js',\r\n  mode: 'development',\r\n  module: {\r\n    rules: [{\r\n      test: /\\.txt$/,\r\n      use: './const2var-loader'\r\n    }],\r\n  },\r\n  output: {\r\n    filename: 'bundle.js',\r\n  },\r\n};\n\n//# sourceURL=webpack://webpack-examples/./webpack.config.js?");
 
 /***/ })
 
