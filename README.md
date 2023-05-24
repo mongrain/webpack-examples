@@ -4,10 +4,11 @@
 
 ## loader
 
-其中把 txt 中的 `const` 替换成 `var` ，从 `dist/bundle.js` 中 28 行可以看出效果
+其中把 txt 中的 `const` 替换成 `var` ，从 `examples/loader/dist/bundle.js` 中 28 行可以看出效果
 
 ### Usage
 
 ```bash
-npm run loader
+cd examples/loader
+npm start
 ```
