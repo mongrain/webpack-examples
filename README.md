@@ -12,3 +12,14 @@
 cd examples/loader
 npm start
 ```
+
+## plugin
+
+移除 console , 从  `examples/plugin/dist/bundle.js` 中 18 行可以看出效果
+
+### Usage
+
+```bash
+cd examples/plugin
+npm start
+```
